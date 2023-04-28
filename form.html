@@ -1,0 +1,77 @@
+<!-- 
+    there are 11 tag inside of form tag (v4)
+
+    1. textbox
+    2. password
+    3. Radio Button
+    4. checkbox
+    5. textarea
+    6. select-option
+    7. reset
+    8. button
+    9. submit
+    10. file
+    11. Hidden
+
+ -->
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+        <h1>Form in HTML</h1>
+        <form>
+            
+            <input type="hidden" />
+
+            <label for="firstname">First Name</label> <input id="firstname" type="text" placeholder="Your First Name"/>
+            <br />
+            <br />
+            <label for="lastname">Last Name</label> <input id="lastname" type="text" placeholder="Your Last Name"/>
+            <br />
+            <br />
+            Password <input type="password" placeholder="Password" />
+            <br />
+            <br />
+            Gender :
+            <input type="radio" id="male" name="gender"/><label for="male">Male</label>
+            <input type="radio" id="female" name="gender"/><label for="female">Female</label>
+            <br />
+            <br />
+            Hobby : 
+            <input type="checkbox" name="hobby"/>Cricket
+            <input type="checkbox" name="hobby"/>Football
+            <input type="checkbox" name="hobby"/>Music
+            <input type="checkbox" name="hobby"/>Internet
+
+            <br />
+            <br />
+
+            Address <textarea rows="10" cols="45" placeholder="Your Full Address"></textarea>
+            <br />
+            <br />
+            <input type="file" />
+
+            <br />
+            <br />
+            City : <select>
+                        <option>Indore</option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                        <option>Delhi</option>
+            </select>
+            
+            
+            <Br />
+            <br />
+
+            <input type="reset" value="Clear Form"/>
+            <input type="button" value="OK"/>
+            <input type="submit" value="Signup"/>
+        </form>
+        
+            
+        
+    </body>
+</html>

@@ -1,0 +1,35 @@
+
+            .box{
+                height: 300px;
+                width: 300px;
+                background-color: #705060;
+            }
+            .box:hover{
+              background-color: red;  
+            }
+
+            H1{
+                color :blue;
+            }
+            h1:hover{
+                color: green;
+                font-size: 50px;
+                /* prop : value; */
+            }
+
+
+            h1, b i{
+                color: yellow;
+            }
+
+            h1 b i{
+                color: yellow;
+            }
+
+            
+            p{
+                color : red;
+                font-size: 25px;
+            }
+            
+        

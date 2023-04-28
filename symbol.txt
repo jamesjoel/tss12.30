@@ -1,0 +1,24 @@
+( ) ---- round
+[ ] --- square
+{ } --- curly
+< > --- angle
+
+***************************
+:    colon
+;    semi-colon
+-    dash
+_   underscore
+@  at the rate
+%  modules
+&   ampersand	
+" "  double quote
+' '   single quote
+` `  backtik
+*    apstrick/star
+/    slash
+\    fwd slash
+#   hash
+.    dot
+,    comma
+|   pipe sign
+
